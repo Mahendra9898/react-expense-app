@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import fire from '../../config/Fire';
 import './Login.css';
 
+
 class Login extends Component {
     state = {
         email: '',

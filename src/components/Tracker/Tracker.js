@@ -8,7 +8,6 @@ class Tracker extends Component {
     state = {
         transactions: [],
         money: 0,
-
         transactionName: '',
         transactionType: '',
         price: '',

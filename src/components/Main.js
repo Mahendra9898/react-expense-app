@@ -50,7 +50,7 @@ export default class Main extends Component {
                       {
                         !this.state.formSwitcher ?
                         (<span className="underLine">Not registered? <button onClick={() => this.formSwitcher(!this.state.formSwitcher ? 'register' : 'login')} 
-                          className="linkBtn">Create an account</button>
+                          className="linkBtn ">Create an account</button>
                         </span>) : (
                           <span className="underLine">Have an account already? <button onClick={() => this.formSwitcher(!this.state.formSwitcher ? 'register' : 'login')} 
                           className="linkBtn">Sign in here</button>

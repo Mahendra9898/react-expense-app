@@ -1,16 +1,8 @@
-.regField {
-    width: 100%;
-    background-color: #f7f7f7;
-    color: #000;
-    border: 1px solid #ddd;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 15px;
-}
+
 
 .submitBtn {
     width: 100%;
-    background: #425f9c;
+    background: #45adc9;
     border: 0;
     color: #fff;
     padding: 15px;
@@ -29,13 +21,13 @@
     border: 0;
     background-color: unset;
     text-decoration: underline;
-    color: #3c4043;
+    color: #f6f6f7;
     padding: 0;
     margin: 0;
 }
 
 .linkBtn:hover {
-    color: blue;
+    color: rgb(240, 14, 18);
     cursor: pointer;
 }
 

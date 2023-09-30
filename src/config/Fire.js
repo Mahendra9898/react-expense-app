@@ -1,12 +1,13 @@
 import firebase from 'firebase';
 
 const config = {
-    apiKey: "AIzaSyAaCElud0Ife0vkits2BScONMaX_nw--As",
-    authDomain: "vicode-media.firebaseapp.com",
-    projectId: "vicode-media",
-    storageBucket: "vicode-media.appspot.com",
-    messagingSenderId: "420658677235",
-    appId: "1:420658677235:web:eac7e5990ee0ebe38b7e86"
+    apiKey: "AIzaSyAm0OEQ7NMZCczpCA6SCU2XrLPKX81tLk8",
+  authDomain: "expense-manager-c7dd6.firebaseapp.com",
+  projectId: "expense-manager-c7dd6",
+  storageBucket: "expense-manager-c7dd6.appspot.com",
+  messagingSenderId: "609942258367",
+  appId: "1:609942258367:web:acd6152420d0a34964fc0a",
+  measurementId: "G-RXPR5EJGWZ"
 };
 
 const fire = firebase.initializeApp(config);

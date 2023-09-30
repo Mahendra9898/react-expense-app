@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .regField {
+    width: 100%;
+    background-color: #f7f7f7;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+}
